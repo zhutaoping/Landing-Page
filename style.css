@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* header */
+
+header {
+  background: #1f2937;
+  padding: 0 300px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.logoNav {
+  display: flex;
+  padding-top: 8px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+
+.underLogo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0px 60px 0px;
+  color: #f9faf8;
+}
+
+h1 {
+}
+
+.subtext {
+  color: #e5e7eb;
+}
+
+.header img {
+  /* flex: 0; */
+  width: 500px;
+  height: 220px;
+}
+
+.underLogoLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.underLogoLeft p {
+  width: 450px;
+}
+
+button {
+  width: 120px;
+  background: #3882f6;
+  padding: 5px 24px;
+  border: none;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+
+/* information */
+
+main h2 {
+  color: #1f2937;
+  font-weight: extra-bold;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+main img {
+  width: 100px;
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 400px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card p {
+  width: 150px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* quote */
+
+quote {
+  padding: 100px 400px;
+  background: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: light;
+  font-style: italic;
+}
+
+.sor {
+  text-align: right;
+}
+
+/* footer */
+
+footer {
+  background: #3882f6;
+  margin: 60px 350px;
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+footer .text {
+  color: #f9faf8;
+}
+
+footer button {
+  border: 1px solid #f9faf8;
+  width: 120px;
+  color: #f9faf8;
+}
